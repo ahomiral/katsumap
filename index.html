@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="katsumain.css">
   <script type="text/javascript" src="katsumain.js"></script>
+  <script src="//j.wovn.io/1" data-wovnio="key=nSTurK" async></script>
 </head>
 
 <body>
@@ -84,23 +85,11 @@
           <td class="price1">999</td>
           <td class="time">9:00～20:00(L.O19:00)<br> [月] 11:30～15:00</td>
         </tr>
-        <tr id="ippei">
-          <td class="name">一平</td>
-          <td class="price">500</td>
-          <td class="price1">999</td>
-          <td class="time">10:00～21:00</td>
-        </tr>
         <tr id="itikatu">
           <td class="name">一勝</td>
           <td class="price">500</td>
           <td class="price1">999</td>
           <td class="time">11:00~20:00</td>
-        </tr>
-        <tr id="sweet">
-          <td class="name">喫茶ビタースィート</td>
-          <td class="price">500</td>
-          <td class="price1">999</td>
-          <td class="time">08:00~19:30</td>
         </tr>
         <tr id="rindou">
           <td class="name">味季節料理りんどう</td>
@@ -126,30 +115,47 @@
     };
     var userList = new List("res", options);
     userList.sort('name', { order: 'asc' });
-    var iroha = document.getElementById('irohazu');
-    iroha.innerHTML = '';
-    var honke = document.getElementById('honkekatumeshi');
-    honke.innerHTML = '';
-    var luck = document.getElementById('ruckyshokudo');
-    luck.innerHTML = '';
-    var maruman = document.getElementById('maruman');
-    maruman.innerHTML = '';
-    var eden = document.getElementById('eden');
-    eden.innerHTML = '';
-    var coffee = document.getElementById('rocky');
-    coffee.innerHTML = '';
-    var robin = document.getElementById('robinhood');
-    robin.innerHTML = '';
-    var ippei = document.getElementById('ippei');
-    ippei.innerHTML = '';
-    var ikkatsu = document.getElementById('itikatu');
-    ikkatsu.innerHTML = '';
-    var sweet = document.getElementById('sweet');
-    sweet.innerHTML = '';
-    var rindo = document.getElementById('rindou');
-    rindo.innerHTML = '';
-    var hogaku = document.getElementById('hogaku');
-    hogaku.innerHTML = '';
+
+    var shopId = [
+      'irohazu',
+      'honkekatumeshi',
+      'ruckyshokudo',
+      'maruman',
+      'eden',
+      'rocky',
+      'robinhood',
+      'itikatu',
+      'rindou',
+      'hogaku'
+    ];
+
+    /* var iroha = document.getElementById('irohazu');
+     iroha.innerHTML = '';
+     var honke = document.getElementById('honkekatumeshi');
+     honke.innerHTML = '';
+     var luck = document.getElementById('ruckyshokudo');
+     luck.innerHTML = '';
+     var maruman = document.getElementById('maruman');
+     maruman.innerHTML = '';
+     var eden = document.getElementById('eden');
+     eden.innerHTML = '';
+     var coffee = document.getElementById('rocky');
+     coffee.innerHTML = '';
+     var robin = document.getElementById('robinhood');
+     robin.innerHTML = '';
+     var ippei = document.getElementById('ippei');
+     ippei.innerHTML = '';
+     var ikkatsu = document.getElementById('itikatu');
+     ikkatsu.innerHTML = '';
+     var sweet = document.getElementById('sweet');
+     sweet.innerHTML = '';
+     var rindo = document.getElementById('rindou');
+     rindo.innerHTML = '';
+     var hogaku = document.getElementById('hogaku');*/
+    for (var i = 0; i < shopId.length; i++) {
+      var table = document.getElementById(shopId[i]);
+      table.innerHTML = '';
+    }
   </script>
 
 
