@@ -1,0 +1,24 @@
+body {
+  background: url("../../image/b133.gif");
+}
+body main .images {
+  text-align: center;
+}
+body main .images .image {
+  display: inline-block;
+  margin: 0px 20px;
+}
+body main .overview table tr .overview-left {
+  color: white;
+  background-color: green;
+}
+body main .overview table tr .overview-right {
+  background-color: lightgreen;
+}
+body main .overview table tr .overview-right .overview-right-intable .overview-right-in {
+  border-style: none none solid none;
+  border-color: white;
+  border: 0px 0px 3px 0px;
+}
+
+/*# sourceMappingURL=irohazu.css.map */

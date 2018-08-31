@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	background: url(./b133.gif);
+	header{
+		display: table;
+		width: 100%;
+		position: fixed;
+		background-color: rgba(black, 0.7);
+		top: 0;
+		left: 0;
+		.header-p{
+			text-align: left;
+			float: left;
+			margin: 0;
+			.store-name{
+				color: white;
+				font-size: 44px;
+				padding: 0px;
+			}
+		}
+		.header-menus{
+			text-align: right;
+			margin: 0;
+			.header-menu{
+				float: right;
+				list-style: none;
+				color: white;
+			}
+			.header-menu:nth-child(2){
+				margin-right: 10px;
+			}
+		}
+	}
+	main{
+		margin: calc(67.2px + 5px);
+		.main-text{
+
+		}
+		.images{
+			text-align: center;
+			.bigimg{
+				.img{
+				}
+			}
+		}
+		#overview{
+			table{
+				margin: auto;
+				tr{
+					.store-th{
+						color: white;
+						background-color: black;
+					}
+					.store-td{
+						color: white;
+						background-color: rgba(grey, 0.7);
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}

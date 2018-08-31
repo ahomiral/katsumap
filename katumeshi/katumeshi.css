@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: url(./b133.gif);
+}
+body header {
+  display: table;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+}
+body header .header-p {
+  text-align: left;
+  float: left;
+  margin: 0;
+}
+body header .header-p .store-name {
+  color: white;
+  font-size: 44px;
+  padding: 0px;
+}
+body header .header-menus {
+  text-align: right;
+  margin: 0;
+}
+body header .header-menus .header-menu {
+  float: right;
+  list-style: none;
+  color: white;
+}
+body header .header-menus .header-menu:nth-child(2) {
+  margin-right: 10px;
+}
+body main {
+  margin: calc(67.2px + 5px);
+}
+body main .images {
+  text-align: center;
+}
+body main #overview table {
+  margin: auto;
+}
+body main #overview table tr .store-th {
+  color: white;
+  background-color: black;
+}
+body main #overview table tr .store-td {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.7);
+  text-align: center;
+}
+
+/*# sourceMappingURL=katumeshi.css.map */

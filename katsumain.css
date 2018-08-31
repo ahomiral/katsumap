@@ -1,0 +1,79 @@
+table {
+	border-collapse: collapse;
+}
+
+th {
+	width: 300px;
+}
+
+td {
+	border: solid 1px;
+	padding: 0.5em;
+	background-color: skyblue;
+	width: 300px;
+}
+
+
+div.header {
+	background-color: #CCCCFF;
+	width: 100%;
+	height: 50px;
+	font-size: 40px;
+}
+
+
+select {
+	width: 100px;
+	height: 25px;
+}
+
+.sort.desc:after {
+	content: "▼";
+}
+
+.sort.asc:after {
+	content: "▲";
+}
+
+body {
+	background-color: #f7be81;
+	font-family: 'book antiqua';
+}
+
+th {
+	font-size: 25px;
+}
+
+td {
+	font-size: 20px;
+}
+
+.main_img {
+	width: 100%;
+	height: 150px;
+	background: url('mig.jpg');
+}
+
+h1 {
+	font-size: 40px;
+	color: red;
+	font-family: "ＭＳ Ｐ明朝";
+}
+
+.main {
+	font-size: 20px;
+}
+
+.gomi {
+	height: 400px;
+	width: 200px;
+	float: left;
+}
+
+p {
+	width: 700px;
+}
+
+img {
+	clear: both;
+}

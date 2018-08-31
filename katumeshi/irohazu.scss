@@ -1,0 +1,34 @@
+body{
+	background: url("../../image/b133.gif");
+	main{
+		.images{
+			text-align: center;
+			.image{
+			display: inline-block;
+			margin: 0px 20px;
+			}
+		}
+		.overview{
+			table{
+				tr{
+					.overview-left{
+						color: white;
+						background-color: green;
+					}
+					.overview-right{
+						background-color: lightgreen;
+						.overview-right-intable{
+							.overview-right-in{
+								border-style: none none solid none;
+								border-color: white;
+								border: 0px 0px 3px 0px;
+								.overview-right-intr{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
