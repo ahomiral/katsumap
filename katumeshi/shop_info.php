@@ -7,7 +7,7 @@ $shop_list = [
         // ヘッダーのリンク
         'header_href' => [
             '公式' => 'http://www.beef168.co.jp/irohas/',
-            'TOP' => '/katsumap/katsumain/katsumain.html',
+            'TOP' => '/katsumap/katsumain/',
             ],
         // 説明文
         'description' => 'うどんの店だがかつめしもあり、さらに丼、そば多種類揃えられている。',
@@ -25,15 +25,15 @@ $shop_list = [
         'access' => 'JR加古川駅から徒歩約6分',
         // 画像
         'img' => [
-            'maruman-img/gaikan.jpg',
-            'maruman-img/naikan.jpg',
+            '../maruman-img/gaikan.jpg',
+            '../maruman-img/naikan.jpg',
         ],    
     ],
     'irohazu' => [
         'title' => 'かつめし いろはーず',
         'header_href' => [
             '公式' => 'http://www.beef168.co.jp/irohas/',
-            'TOP' => '/katsumap/katsumain/katsumain.html',
+            'TOP' => '/katsumap/katsumain/',
             ],
         'description' => 'かつめしの元祖『いろは食堂』の味を受け継いだかつめし店。牛・豚・エビ以外に鶏・コロッケ・白身魚などの他の店では見かけることのない珍しいかつめしに加え、ソースも昔ながらのデミグラスソースを使った赤ソース、まろやかな白ソース、カレー屋も驚きの15種類のスパイスを使った辛めの緑ソースの3種類から選ぶことができ様々なかつめしを食べることができます。さらにソースは2種類掛けたハーフや3種全て掛けたトリプルもあります。緑ソースは3段階の辛さから選べるので辛いものが苦手な方でもぜひ挑戦してほしいです。',
         'business_hour' => [
@@ -46,8 +46,8 @@ $shop_list = [
             ],
         'access' => 'JR加古川駅から徒歩約2分',
         'img' => [
-            'irohazu-img/bigmenu.jpg',
-            'irohazu-img/irohazu-menuura.jpg'
+            '../irohazu-img/bigmenu.jpg',
+            '../irohazu-img/irohazu-menuura.jpg'
         ],    
         'parking' => '近隣コインパーキング共同駐車場使用1時間無料'
     ],
@@ -55,7 +55,7 @@ $shop_list = [
 		'title' => '本家かつめし亭',
 		'header_href' => [
 			'公式' => 'http://katumesitei.com/',
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => 'かつめしの専門店でA5ランクとA4ランクの牛のかつめしを提供している。A5ランク、A4ランクの播磨牛を使用しているのにもかかわらず価格もA4ランクは並サイズで780円、A5ランクは並サイズで1180円とリーズナブルです。',
 		'business_hour' => [
@@ -70,8 +70,8 @@ $shop_list = [
 			'山陽電鉄本線浜の宮駅から徒歩約15分',
 			],
 		'img' => [
-			'./katumeshitei-img/A5katumeshi.png',
-			'./katumeshitei-img/gaikan.png',
+			'../katumeshitei-img/A5katumeshi.png',
+			'../katumeshitei-img/gaikan.png',
 		],
 	],
 	'rocky' => [
@@ -97,7 +97,7 @@ $shop_list = [
 	'ruckyshokudo' => [
 		'title' => 'ラッキー食堂',
 		'header_href' => [
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => 'かつめしは牛・豚・エビの3種類があり、その他にもラーメンやおでんなどもありメニューの幅がかなり広い、お持ち帰りも可能。',
 		'business_hour' => [
@@ -119,7 +119,7 @@ $shop_list = [
 		'title' => 'ロビンフッド',
 		'header_href' => [
 			'公式' => 'https://www.facebook.com/Robinhoodcafe/',
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => 'かつめしが破格の550円で食べることができ、更にボリュームも申し分なくコスパが最強。',
 		'business_hour' => [
@@ -140,7 +140,7 @@ $shop_list = [
 		'title' => '味季料理りんどう',
 		'header_href' => [
 			'公式' => 'http://rindow.co.jp/',
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => 'りんどうのかつめしは名物の黒毛和牛のヘレ肉使ったへれかつめし(驚異の7200円)。他にもかつめし(1350円)や上かつめし(2700円)もあります。懐石料理もありとても魅力的なお店です。',
 		'business_hour' => [
@@ -161,7 +161,7 @@ $shop_list = [
 	'eden' => [
 		'title' => 'Eden(エデン)',
 		'header_href' => [
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => '',
 		'business_hour' => [
@@ -180,7 +180,7 @@ $shop_list = [
 	'itikatu' => [
 		'title' => '一勝',
 		'header_href' => [
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => '',
 		'business_hour' => [
@@ -199,7 +199,7 @@ $shop_list = [
 	'saikai' => [
 		'title' => '再会',
 		'header_href' => [
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => '',
 		'business_hour' => [
@@ -218,8 +218,8 @@ $shop_list = [
 	'shihotei' => [
 		'title' => '志方亭',
 		'header_href' => [
-			'公式' => 'http://shikatatei.com/'
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'公式' => 'http://shikatatei.com/',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => '※メインは焼肉です。',
 		'business_hour' => [
@@ -238,7 +238,7 @@ $shop_list = [
 	'kisshou' => [
 		'title' => 'グルメ 吉翔',
 		'header_href' => [
-			'TOP' => '/katsumap/katsumain/katsumain.html',
+			'TOP' => '/katsumap/katsumain/',
 			],
 		'description' => '※メインは焼肉です。',
 		'business_hour' => [
@@ -254,7 +254,7 @@ $shop_list = [
 			],
 		'img' => [
 		],
-	],
+	]
 ];
 
 // 店舗名から検索する

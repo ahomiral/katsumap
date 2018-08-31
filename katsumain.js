@@ -1,8 +1,103 @@
-	var shopinfo = [
-		{ pos: [34.768810, 134.842289], name: "いろはーず", id: 'iroha', html: '<td class="name"><a href=https://59612b63555940f6856a83996f0f594e.vfs.cloud9.ap-southeast-1.amazonaws.com/katsumap/katsumain/katumeshi/page.php?name=irohazu" target="_blank">いろはーず<a></td><td class="price">650</td><td class="price1">1300</td><td class="time">11:00~15:00<br>17:30~21:00</td>' }, { pos: [34.738959, 134.823688], name: "本家かつめし亭", id: 'honke', html: '<td class="name"><a href="http://katumesitei.com/" target="_blank">本家かつめし亭</a></td><td class="price">1000</td><td class="price1">1999</td><td class="time">11:00~21:00</td>' }, { pos: [34.748093, 134.835403], name: "ラッキー食堂", id: 'luck', html: '<td class="name"><a href="http://www.katsumeshi.com/cat2/320/" target="_blank">ラッキー食堂</a></td><td class="price">1000</td><td class="price1">1999</td><td class="time">11:30~15:00<br>17:00~21:00</td>' }, { pos: [34.767290, 134.835423], name: "丸万 本店", id: 'maruman', html: '<td class="name"><a href="https://tabelog.com/hyogo/A2804/A280402/28007746/dtlrvwlst/B146105903/" target="_blank">丸万 本店</a></td><td class="price">500</td><td class="price1">999</td><td class="time">11:00~19:00</td>' }, { pos: [34.767472, 134.837501], name: "エデン", id: 'eden', html: '<td class="name"><a href="http://www.katsumeshi.com/cat2/330/" target="_blank">エデン</a></td><td class="price">500</td><td class="price1">999</td><td class="time">11:00~19:00</td>' }, { pos: [34.762732, 134.874965], name: "Coffee House Rocky", id: 'Coffee', html: '<td class="name"><a href="https://tabelog.com/hyogo/A2804/A280402/28005418/" target="_blank">Coffee House Rocky</a></td><td class="price">1000</td><td class="price1">1999</td><td class="time">11:30~15:00<br>17:00~21:00</td>' }, { pos: [34.764898, 134.834558], name: "ロビンフッド", id: 'robin', html: '<td class="name"><a href="https://tabelog.com/hyogo/A2804/A280402/28014651/" target="_blank">ロビンフッド</a></td><td class="price">500</td><td class="price1">999</td> 	<td class="time">9:00～20:00(L.O19:00)<br> [月] 11:30～15:00</td>' }, { pos: [34.766878, 134.788209], name: "一平", id: 'ippei', html: '<td class="name"><a href="https://tabelog.com/hyogo/A2804/A280402/28005857/" target="_blank">一平</a></td><td class="price">500</td><td class="price1">999</td><td class="time">10:00～21:00</td>' }, { pos: [34.763624, 134.829791], name: "一勝", id: 'ikkatsu', html: '<td class="name">一勝</td><td class="price">500</td><td class="price1">999</td><td class="time">11:00~20:00</td>' }, { pos: [34.755395, 134.841353], name: "喫茶ビタースィート", id: 'sweet', html: '<td class="name">喫茶ビタースィート</td><td class="price">500</td><td class="price1">999</td><td class="time">08:00~19:30</td>' }, { pos: [34.765952, 134.827886], name: "味季節料理りんどう", id: 'rindo', html: '<td class="name">味季節料理りんどう</td><td class="price">900</td><td class="price1">7200</td><td class="time">11:30～14:30（LO 14:00）<br>17:30～21:30（LO 21:00）</td>' }, { pos: [34.806133, 134.887055], name: "法楽屋", id: 'hogaku', html: '<td class="name">法楽屋</td><td class="price">1000</td><td class="price1">1999</td><td class="time">11:00～13:30(L.O13:00)</td>' }
+	var shopinfo = [{
+			pos: [34.768810, 134.842289],
+			name: "いろはーず",
+			id: 'irohazu',
+			priceMin: 650,
+			priceMax: 1300,
+			businessHour: '11:00~15:00<br>17:30~21:00',
+		},
+		{
+			pos: [34.738959, 134.823688],
+			name: "本家かつめし亭",
+			id: 'honkekatumeshi',
+			priceMin: 1000,
+			priceMax: 1999,
+			businessHour: '11: 00~21: 00',
+			html: '<td class="name"><a href="http://katumesitei.com/" target="_blank">本家かつめし亭</a></td><td class="price">1000</td><td class="price1">1999</td><td class="time">11:00~21:00</td>'
+		},
+		{
+			pos: [34.748093, 134.835403],
+			name: "ラッキー食堂",
+			id: 'ruckyshokudo',
+			priceMin: 1000,
+			priceMax: 1999,
+			businessHour: '11: 30~15: 00 <br> 17: 00~21: 00',
+			html: '<td class="name"><a href="http://www.katsumeshi.com/cat2/320/" target="_blank">ラッキー食堂</a></td><td class="price">1000</td><td class="price1">1999</td><td class="time">11:30~15:00<br>17:00~21:00</td>'
+		},
+		{
+			pos: [34.767290, 134.835423],
+			name: "丸万 本店",
+			id: 'maruman',
+			priceMin: 500,
+			priceMax: 999,
+			businessHour: '11:00~19:00',
+		},
+		{
+			pos: [34.767472, 134.837501],
+			name: "エデン",
+			id: 'eden',
+			priceMin: 500,
+			priceMax: 999,
+			businessHour: '11:00~19:00',
+		},
+		{
+			pos: [34.762732, 134.874965],
+			name: "Coffee House Rocky",
+			id: 'rocky',
+			priceMin: 1000,
+			priceMax: 1999,
+			businessHour: '11:30~15:00<br>17:00~21:00',
+		},
+		{
+			pos: [34.764898, 134.834558],
+			name: "ロビンフッド",
+			id: 'robinhood',
+			priceMin: 500,
+			priceMax: 999,
+			businessHour: '9:00～20:00(L.O19:00)<br> [月] 11:30～15:00',
+		},
+		{
+			pos: [34.766878, 134.788209],
+			name: "一平",
+			id: 'ippei',
+			priceMin: 500,
+			priceMax: 999,
+			businessHour: '10: 00～ 21: 00',
+		},
+		{
+			pos: [34.763624, 134.829791],
+			name: "一勝",
+			id: 'itikatu',
+			priceMin: 500,
+			priceMax: 999,
+			businessHour: '11: 00~20: 00',
+		},
+		{
+			pos: [34.755395, 134.841353],
+			name: "喫茶ビタースィート",
+			id: 'sweet',
+			priceMin: 500,
+			priceMax: 999,
+			businessHour: '08:00~19:30',
+		},
+		{
+			pos: [34.765952, 134.827886],
+			name: "味季節料理りんどう",
+			id: 'rindou',
+			priceMin: 900,
+			priceMax: 7200,
+			businessHour: '11:30～14:30（LO 14:00）<br>17:30～21:30（LO 21:00）',
+		},
+		{
+			pos: [34.806133, 134.887055],
+			name: "法楽屋",
+			id: 'hogaku',
+			priceMin: 1000,
+			priceMax: 1999,
+			businessHour: '11:00～13:30(L.O13:00)',
+		}
 
 	];
-
 
 	var showInTable = [];
 	for (var i = 0; i < shopinfo.length; i++) {
@@ -11,6 +106,19 @@
 
 
 	window.onload = function() {
+		function createTableHTML(shopInfo) {
+			var shopId = shopInfo.id ? shopInfo.id : ''
+			var shopName = shopInfo.name ? shopInfo.name : ''
+			var priceMin = shopInfo.priceMin ? shopInfo.priceMin : ''
+			var priceMax = shopInfo.priceMax ? shopInfo.priceMax : ''
+			var businessHour = shopInfo.businessHour ? shopInfo.businessHour : ''
+			var html = ''
+			html += '<td class="name">'
+			html += '<a href="https://59612b63555940f6856a83996f0f594e.vfs.cloud9.ap-southeast-1.amazonaws.com/katsumap/katsumain/katumeshi/shops/' + shopId + '.html" target="_blank">' + shopName + '<a>'
+			html += '</td><td class="price">' + priceMin + '</td><td class="price1">' + priceMax + '</td><td class="time">' + businessHour + '</td>'
+			return html
+		}
+
 		var ymap = new Y.Map("map");
 		ymap.drawMap(new Y.LatLng(34.757912, 134.839218), 15, Y.LayerSetId.NORMAL);
 		var control = new Y.LayerSetControl();
@@ -37,7 +145,7 @@
 				return function() {
 					if (showInTable[x]) {
 						var iroha = document.getElementById(shopinfo[x].id);
-						iroha.innerHTML = shopinfo[x].html;
+						iroha.innerHTML = createTableHTML(shopinfo[x]);
 						showInTable[x] = false;
 					}
 					else {

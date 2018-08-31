@@ -1,4 +1,4 @@
-<?php  require './shop_info.php'; 
+<?php  require '../shop_info.php'; 
 
 // 店舗がなければ404ページ表示
 if($is_exist == false) {
@@ -11,10 +11,10 @@ if($is_exist == false) {
 		<title>
 			<?php echo $shop_info['title']; ?>
 		</title>
-		<link rel="stylesheet" type="text/css" href="./katumeshi.css">
-		<link rel="stylesheet" href="litycst.min.css">
+		<link rel="stylesheet" type="text/css" href="../katumeshi.css">
+		<link rel="stylesheet" href="../litycst.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="lity.min.js"></script>
+		<script src="../lity.min.js"></script>
 	</head>
 	<body>
 		<header>
