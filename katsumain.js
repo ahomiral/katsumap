@@ -114,7 +114,7 @@
 			var businessHour = shopInfo.businessHour ? shopInfo.businessHour : ''
 			var html = ''
 			html += '<td class="name">'
-			html += '<a href="https://59612b63555940f6856a83996f0f594e.vfs.cloud9.ap-southeast-1.amazonaws.com/katsumap/katsumain/katumeshi/shops/' + shopId + '.html" target="_blank">' + shopName + '<a>'
+			html += '<a href="https://youthful-cray-7fab53.netlify.com/katumeshi/shops/' + shopId + '.html" target="_blank">' + shopName + '<a>'
 			html += '</td><td class="price">' + priceMin + '</td><td class="price1">' + priceMax + '</td><td class="time">' + businessHour + '</td>'
 			return html
 		}
